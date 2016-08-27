@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		753A459F1D70700D008DFAA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A459E1D70700D008DFAA5 /* main.m */; };
+		753A45A81D70B6E7008DFAA5 /* Carro.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A45A71D70B6E7008DFAA5 /* Carro.m */; };
+		753A45AB1D70C1BA008DFAA5 /* VelocidadeException.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A45AA1D70C1BA008DFAA5 /* VelocidadeException.m */; };
+		753A45B41D70D2E5008DFAA5 /* PostoDeGasolina.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A45B31D70D2E5008DFAA5 /* PostoDeGasolina.m */; };
+		753A45B71D710310008DFAA5 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A45B61D710310008DFAA5 /* NSString+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,17 @@
 /* Begin PBXFileReference section */
 		753A459B1D70700D008DFAA5 /* OlaObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OlaObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		753A459E1D70700D008DFAA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		753A45A61D70B6E7008DFAA5 /* Carro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carro.h; sourceTree = "<group>"; };
+		753A45A71D70B6E7008DFAA5 /* Carro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carro.m; sourceTree = "<group>"; };
+		753A45A91D70C1BA008DFAA5 /* VelocidadeException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VelocidadeException.h; sourceTree = "<group>"; };
+		753A45AA1D70C1BA008DFAA5 /* VelocidadeException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VelocidadeException.m; sourceTree = "<group>"; };
+		753A45AC1D70C87C008DFAA5 /* CombustivelAlcool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CombustivelAlcool.h; sourceTree = "<group>"; };
+		753A45B01D70C963008DFAA5 /* CombustivelGasolina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombustivelGasolina.h; sourceTree = "<group>"; };
+		753A45B11D70CA36008DFAA5 /* CombustivelFlex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombustivelFlex.h; sourceTree = "<group>"; };
+		753A45B21D70D2E5008DFAA5 /* PostoDeGasolina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostoDeGasolina.h; sourceTree = "<group>"; };
+		753A45B31D70D2E5008DFAA5 /* PostoDeGasolina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostoDeGasolina.m; sourceTree = "<group>"; };
+		753A45B51D710310008DFAA5 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		753A45B61D710310008DFAA5 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +72,28 @@
 		753A459D1D70700D008DFAA5 /* OlaObjectiveC */ = {
 			isa = PBXGroup;
 			children = (
+				753A45A51D70B5FF008DFAA5 /* Classes */,
 				753A459E1D70700D008DFAA5 /* main.m */,
 			);
 			path = OlaObjectiveC;
+			sourceTree = "<group>";
+		};
+		753A45A51D70B5FF008DFAA5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				753A45A61D70B6E7008DFAA5 /* Carro.h */,
+				753A45A71D70B6E7008DFAA5 /* Carro.m */,
+				753A45A91D70C1BA008DFAA5 /* VelocidadeException.h */,
+				753A45AA1D70C1BA008DFAA5 /* VelocidadeException.m */,
+				753A45AC1D70C87C008DFAA5 /* CombustivelAlcool.h */,
+				753A45B01D70C963008DFAA5 /* CombustivelGasolina.h */,
+				753A45B11D70CA36008DFAA5 /* CombustivelFlex.h */,
+				753A45B21D70D2E5008DFAA5 /* PostoDeGasolina.h */,
+				753A45B31D70D2E5008DFAA5 /* PostoDeGasolina.m */,
+				753A45B51D710310008DFAA5 /* NSString+Utils.h */,
+				753A45B61D710310008DFAA5 /* NSString+Utils.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753A45B41D70D2E5008DFAA5 /* PostoDeGasolina.m in Sources */,
+				753A45AB1D70C1BA008DFAA5 /* VelocidadeException.m in Sources */,
+				753A45B71D710310008DFAA5 /* NSString+Utils.m in Sources */,
 				753A459F1D70700D008DFAA5 /* main.m in Sources */,
+				753A45A81D70B6E7008DFAA5 /* Carro.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
